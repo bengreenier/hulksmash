@@ -1,0 +1,39 @@
+{
+  "name": "hulksmash",
+  "version": "0.0.1",
+  "description": "smash keys within object(s) together",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bengreenier/hulksmash.git"
+  },
+  "keywords": [
+    "smash",
+    "configuration",
+    "objects",
+    "hulksmash"
+  ],
+  "author": {
+    "name": "Ben Greenier",
+    "email": "ben+npm@bengreenier.com",
+    "homepage": "bengreenier.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/bengreenier/hulksmash/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/bengreenier/hulksmash/issues"
+  },
+  "homepage": "https://github.com/bengreenier/hulksmash",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "deep-equal": "^0.2.1",
+    "extend": "^2.0.0"
+  }
+}
