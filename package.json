@@ -1,6 +1,6 @@
 {
   "name": "hulksmash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "smash keys within object(s) together",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,6 @@
     "mocha": "^2.1.0"
   },
   "dependencies": {
-    "deep-equal": "^0.2.1",
     "extend": "^2.0.0"
   }
 }
