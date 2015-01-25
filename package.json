@@ -1,10 +1,10 @@
 {
   "name": "hulksmash",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "smash keys within object(s) together",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --ui tdd"
   },
   "repository": {
     "type": "git",
@@ -34,5 +34,19 @@
   },
   "dependencies": {
     "extend": "^2.0.0"
+  },
+  "testling": {
+    "harness": "mocha-tdd",
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
   }
 }
