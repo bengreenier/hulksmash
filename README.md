@@ -1,6 +1,9 @@
 # hulksmash [![Build Status](https://travis-ci.org/bengreenier/hulksmash.svg)](https://travis-ci.org/bengreenier/hulksmash)
 smash keys within object(s) together
 
+[![browser support](https://ci.testling.com/bengreenier/hulksmash.png)
+](https://ci.testling.com/bengreenier/hulksmash)
+
 # api
 
 hulksmash supports three methods:
