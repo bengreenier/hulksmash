@@ -15,7 +15,7 @@ hulksmash supports three methods:
     this is a direct passthrough to [justmoon/node-extend](https://github.com/justmoon/node-extend) with deep copy always `true`. returns an object.
 
   + __keys(object1,[objectN])__:  
-    smashes root-level keys values together (deep copy is `true`) in an object. If given multiple objects, will smash each objects root-level keys, and return an array of objects.
+    smashes root-level keys values together (deep copy is `true`) in an object. If given multiple objects, `hulksmash` will smash each objects root-level keys, and return an array of objects.
 
 
 # examples
